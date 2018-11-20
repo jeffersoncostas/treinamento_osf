@@ -83,3 +83,29 @@
         transform: translate(-50%, -50%) scale(1, 1);
     }
 }
+
+
+
+/*  */
+
+.dropdown-link{
+    position: relative;
+}
+.dropdown-link > div {
+    width: 100%;
+    position: absolute;
+    display: none;
+    background: #dee2e6;
+}
+.dropdown-link:hover > div{
+
+    display: block;
+}
+.dropdown-link > div ul {
+    list-style: none;
+    padding: 0px;
+}
+.dropdown-link > div ul li {
+    display: block;
+    text-align: center;
+}
